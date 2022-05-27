@@ -9,7 +9,12 @@
   overflow: hidden;
 }
 
-.jumbotron img {
+.jumbotron>img {
+  opacity: 0;
+  transition: 1s;
+}
+.jumbotron>img.muncul {
+  opacity: 1;
   color: #e2edff;
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
 }

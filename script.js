@@ -1,4 +1,8 @@
 $(window).on("load", function () {
+  $(".img").addClass("muncul");
+});
+
+$(window).on("load", function () {
   $(".pKiri").addClass("muncul");
   $(".pKanan").addClass("muncul");
 });
