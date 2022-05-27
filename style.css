@@ -1,11 +1,54 @@
 .jumbotron {
+  background-image: url("project/6.jpg");
   padding-top: 6rem;
   padding-bottom: 2rem;
-  background-color: #e2edff;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: 0 -100px;
+  color: #e2edff;
+  overflow: hidden;
+}
+
+.jumbotron img {
+  color: #e2edff;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
+
+.jumbotron h1,
+.jumbotron p {
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
+
+.pKiri,
+.pKanan {
+  opacity: 0;
+  transform: translate(-50px, 0);
+  transition: 1s;
+}
+
+.pKanan {
+  transform: translate(50px, 0);
+}
+
+.pKiri.muncul,
+.pKanan.muncul {
+  opacity: 1;
+  transform: translate(0, 0);
 }
 
 #projects {
   background-color: #e2edff;
+}
+
+#projects .card {
+  opacity: 0;
+  transform: translate(0, -40px);
+  transition: 0.5s;
+}
+
+#projects .card.muncul {
+  opacity: 1;
+  transform: translate(0, 0);
 }
 
 section {
