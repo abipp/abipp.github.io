@@ -4,8 +4,6 @@ $(window).on("load", function () {
 });
 $(window).scroll(function () {
   var wScroll = $(this).scrollTop();
-  console.log(wScroll);
-
   $(".jumbotron img").css({
     transform: "translate(0px, " + wScroll / 4 + "%)",
   });
