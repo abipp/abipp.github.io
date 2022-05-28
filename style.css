@@ -9,15 +9,13 @@
   overflow: hidden;
 }
 
-.jumbotron>img {
-  opacity: 0;
-  transition: 1s;
-}
-.jumbotron>img.muncul {
-  opacity: 1;
-  color: #e2edff;
+.img-thumbnail {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
 }
+
 
 .jumbotron h1,
 .jumbotron p {

@@ -1,8 +1,4 @@
 $(window).on("load", function () {
-  $(".img").addClass("muncul");
-});
-
-$(window).on("load", function () {
   $(".pKiri").addClass("muncul");
   $(".pKanan").addClass("muncul");
 });
@@ -16,7 +12,7 @@ $(window).scroll(function () {
     transform: "translate(0px, " + wScroll / 2 + "%)",
   });
 
-  $(".jumbotron h1").css({
+  $(".jumbotron p").css({
     transform: "translate(0px, " + wScroll / 1.2 + "%)",
   });
 
